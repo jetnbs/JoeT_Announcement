@@ -1,0 +1,122 @@
+/*Bad Uncle CSS*/
+
+body{
+	background-color: black;
+}
+
+a {
+	color: red;
+	padding: 5px
+}
+p {
+	color: yellow;
+}
+header {
+
+	background-color: black;
+	text-align: center;
+	background-image: url(../images/baduncleproject.jpg);
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+nav { 
+	color: red;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.7);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+.block {
+	display: block;
+}
+h1 {
+	color: black;
+}
+h3 {
+	color: black;
+}
+.social {
+	color: white;
+	text-align: center;
+}
+.container {
+	width: 100%;
+	margin: 50px auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.column-one {
+	flex: 75%;
+	display: flex;
+	flex-direction: column;
+}
+.video {
+	flex: 1;
+	margin: auto;
+}
+.description {
+	flex: 1;
+	margin: 0 120px;
+}
+.sidebar {
+	flex: 25%;
+	text-decoration: none;
+}
+.sidebar2 {
+	flex: 25%;
+}
+.no-underline {;
+	text-decoration: none;
+}
+table {
+	color: white;
+	flex: 1;
+	margin: auto;
+}
+
+td img{
+	border: 3px solid red;
+	border-spacing: 0;
+	border-radius: 20%
+}
+.contact {
+	flex-basis: 75%;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid red;
+	margin: 0 50px 0 50px;
+}
+
+
+.video2 {
+	width: 75%
+	margin: 50px 100px 0 100px;
+}
+
+.head {
+	border: 3px solid red;
+}
+
+.testimony {
+	display: flex;
+	border: 3px solid red;
+	justify-content: center;
+}
+
+.name {
+	flex: 1;
+	justify-content: center;
+}
+.review {
+	flex: 2;
+	margin: auto;
+	padding: 0 10px 0 0;
+}
+
+
